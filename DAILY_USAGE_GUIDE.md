@@ -33,7 +33,7 @@ npm run dev -- --host
 cd /home/ubuntu
 python3.11 -c "
 from smart_scheduler import SmartScheduler
-scheduler = SmartScheduler('e1e76b8e3emsh2445ffb97db0128p158afdjsnb3175ce8d916')
+scheduler = SmartScheduler('')
 scheduler.evening_update()
 "
 ```
@@ -70,7 +70,7 @@ python3.11 smart_scheduler.py
 
 ### Variables d'Environnement :
 ```bash
-export RAPIDAPI_KEY="e1e76b8e3emsh2445ffb97db0128p158afdjsnb3175ce8d916"
+export RAPIDAPI_KEY=""
 ```
 
 ## 📈 Monitoring et Statistiques
@@ -212,7 +212,7 @@ Le système maintient automatiquement :
 cd /home/ubuntu && python3.11 smart_scheduler.py manual
 
 # 2. Démarrer l'interface
-cd /home/ubuntu && RAPIDAPI_KEY=e1e76b8e3emsh2445ffb97db0128p158afdjsnb3175ce8d916 python3.11 api_server.py &
+cd /home/ubuntu && RAPIDAPI_KEY= python3.11 api_server.py &
 cd /home/ubuntu/football-elo-predictor && npm run dev -- --host
 
 # 3. Accéder à l'interface
