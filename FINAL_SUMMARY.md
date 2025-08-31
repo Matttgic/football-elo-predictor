@@ -81,7 +81,7 @@ data/
 ## 🔑 Configuration API
 
 ### RapidAPI Football
-- **Clé configurée :** `e1e76b8e3emsh2445ffb97db0128p158afdjsnb3175ce8d916`
+- **Clé configurée :** ``
 - **Limite quotidienne :** 75,000 appels (système optimisé < 40,000)
 - **Ligues supportées :** 20 ligues européennes majeures
 - **Endpoints utilisés :** fixtures, status, teams
