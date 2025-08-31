@@ -18,7 +18,8 @@ python3.11 smart_scheduler.py manual
 ```bash
 # Démarrer l'API backend
 cd /home/ubuntu
-RAPIDAPI_KEY=e1e76b8e3emsh2445ffb97db0128p158afdjsnb3175ce8d916 python3.11 api_server.py &
+RAPIDAPI_KEY=
+python3.11 api_server.py &
 
 # Démarrer l'interface React
 cd /home/ubuntu/football-elo-predictor
