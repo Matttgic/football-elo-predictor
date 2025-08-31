@@ -31,7 +31,7 @@ jobs:
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
         run: |
           export PYTHONPATH=$GITHUB_WORKSPACE:$PYTHONPATH
-          python backend/scripts/daily_update_script.py
+          python -m backend.scripts.daily_update_script
 
       - name: Commit and push changes (ELO data and daily predictions)
         uses: stefanzweifel/git-auto-commit-action@v5
