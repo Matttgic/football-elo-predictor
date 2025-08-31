@@ -1,0 +1,21 @@
+Premier League (Angleterre): E0
+Serie A (Italie): I1
+La Liga (Espagne): SP1
+Bundesliga (Allemagne): D1
+Ligue 1 (France): F1
+Liga Portugal (Portugal): P1
+Eredivisie (Pays-Bas): N1
+Jupiler Pro League (Belgique): B1
+Süper Lig (Turquie): T1
+Premiership écossaise (Écosse): SC0
+Super League grecque (Grèce): G1
+Premier Liga (Russie): RUS
+Bundesliga (Autriche): AUT
+Super League (Suisse): SUI
+Fortuna Liga (République Tchèque): CZE (assuming CZE for Czech Republic)
+Prva HNL (Croatie): CRO (assuming CRO for Croatia)
+Superliga (Danemark): DEN
+Eliteserien (Norvège): NOR
+Allsvenskan (Suède): SWE
+
+

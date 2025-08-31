@@ -1,0 +1,22 @@
+1. Premier League (Angleterre)
+2. Serie A (Italie)
+3. La Liga (Espagne)
+4. Bundesliga (Allemagne)
+5. Ligue 1 (France)
+6. Liga Portugal (Portugal)
+7. Eredivisie (Pays-Bas)
+8. Jupiler Pro League (Belgique)
+9. Süper Lig (Turquie)
+10. Premiership écossaise (Écosse)
+11. Super League grecque (Grèce)
+12. Premier Liga (Russie) - *Note: La participation de la Russie aux compétitions européennes est actuellement suspendue, mais la ligue reste majeure historiquement.*
+13. Primeira Liga (Portugal)
+14. Bundesliga (Autriche)
+15. Super League (Suisse)
+16. Fortuna Liga (République Tchèque)
+17. Prva HNL (Croatie)
+18. Superliga (Danemark)
+19. Eliteserien (Norvège)
+20. Allsvenskan (Suède)
+
+
