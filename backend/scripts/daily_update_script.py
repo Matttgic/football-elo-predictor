@@ -111,7 +111,7 @@ def main():
         # --- Étape 1: Mettre à jour les ELO avec les résultats d'hier ---
         logger.info("🔄 Mise à jour des ELO avec les résultats d'hier...")
         yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-        finished_matches = data_manager.get_fixtures_by_date(yesterday)
+        finished_matches = data_manager.get_today_fixtures_smart(yesterday)
         
         if finished_matches:
             finished_matches = [m for m in finished_matches if m.get("status") == "Match Finished"]
@@ -127,7 +127,7 @@ def main():
 
         # --- Étape 2: Récupérer les matchs du jour et calculer les prédictions ---
         logger.info("🌅 Récupération des matchs du jour et calcul des prédictions...")
-        today_matches = data_manager.get_fixtures_by_date(datetime.now().strftime("%Y-%m-%d"))
+        today_matches = data_manager.get_today_fixtures_smart(datetime.now().strftime("%Y-%m-%d"))
         
         if today_matches:
             for match in today_matches:
