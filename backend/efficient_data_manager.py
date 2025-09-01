@@ -154,10 +154,14 @@ class EfficientDataManager:
                 print(f"⚠️  Arrêt - limite d'appels atteinte")
                 break
             
+            # Déterminer dynamiquement la saison
+            current_year = datetime.strptime(date, "%Y-%m-%d").year
+            season = current_year
+
             params = {
                 "league": league_id,
                 "date": date,
-                "season": "2024"
+                "season": str(season)
             }
             
             data = self.make_api_call("fixtures", params)
