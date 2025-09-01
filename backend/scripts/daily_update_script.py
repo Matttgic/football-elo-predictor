@@ -1,11 +1,15 @@
 import os
+import sys
 import json
 import logging
 from datetime import datetime, timedelta
 import requests
 
+# Ajouter le répertoire parent au PYTHONPATH pour les imports relatifs
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 # Import des modules locaux
-from backend.src.efficient_data_manager import EfficientDataManager
+from src.efficient_data_manager import EfficientDataManager
 from src.team_name_mapping import TeamNameMapper
 from src.elo_predictor import calculate_probabilities 
 
@@ -156,5 +160,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
