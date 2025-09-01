@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-01T06:26:46.386986",
+  "timestamp": "2025-09-01T22:15:15.745220",
   "fixtures": [
     {
       "fixture_id": 1378990,
@@ -25,13 +25,13 @@
       "status": "FT",
       "league": "Premier League",
       "league_id": 39,
-      "home_team": "Nottm Forest",
+      "home_team": "Nott'm Forest",
       "away_team": "West Ham",
       "api_home_team": "Nottingham Forest",
       "api_away_team": "West Ham",
-      "home_elo": 1731.5,
+      "home_elo": 1802.87,
       "away_elo": 1750.13,
-      "elo_diff": -18.63000000000011,
+      "elo_diff": 52.73999999999978,
       "kickoff": "2025-08-31T13:00:00+00:00",
       "home_goals": 0,
       "away_goals": 3,
