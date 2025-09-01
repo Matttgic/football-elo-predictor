@@ -7,7 +7,7 @@ import requests
 # Import des modules locaux
 from backend.src.efficient_data_manager import EfficientDataManager
 from src.team_name_mapping import TeamNameMapper
-from backend.src.elo_predictor import calculate_probabilities 
+from src.elo_predictor import calculate_probabilities 
 
 # Configuration des logs
 logging.basicConfig(level=logging.INFO)
