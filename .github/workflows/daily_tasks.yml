@@ -30,8 +30,8 @@ jobs:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
         run: |
-          export PYTHONPATH=$GITHUB_WORKSPACE:$PYTHONPATH
-          python -m backend.scripts.daily_update_script
+          cd backend
+          python scripts/daily_update_script.py
 
       - name: Commit and push changes (ELO data and daily predictions)
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -39,5 +39,3 @@ jobs:
           commit_message: 'Automated: Update ELO data and daily predictions'
           file_pattern: 'backend/data/EloRatings.csv backend/data/daily_predictions/*.json'
           branch: main
-
-
